@@ -26,7 +26,7 @@ public class AmusementParks extends AppCompatActivity {
         Locations.add(new Location(7,"Leo Splash","Leonia Holistic Destination, Bommaraspet, | Shameerpet",R.drawable.ramoji,2));
 
         ListView listView=(ListView)findViewById(R.id.list_view);
-
+//chang
         CustomAdapter arrayAdapter=new CustomAdapter(AmusementParks.this,Locations,R.color.amusement_parks);
         listView.setAdapter(arrayAdapter);
 
