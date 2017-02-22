@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    tools:context="com.example.com.tourapp.MainActivity">
+
+    <TextView
+        android:id="@+id/must_visit"
+       style="@style/MainTextViews"
+        android:background="@color/must_visit"
+        android:text="@string/must_visit"/>
+    <TextView
+        android:id="@+id/amusement_park"
+        style="@style/MainTextViews"
+        android:background="@color/amusement_parks"
+        android:text="@string/amusement_park"/>
+    <TextView
+        android:id="@+id/religious_sites"
+        style="@style/MainTextViews"
+        android:background="@color/religious_sites"
+        android:text="@string/religious_sites"/>
+    <TextView
+        android:id="@+id/gardens"
+        style="@style/MainTextViews"
+        android:background="@color/gardens"
+        android:text="@string/gardens"/>
+    <TextView
+        android:id="@+id/lakes"
+        style="@style/MainTextViews"
+        android:background="@color/lakes"
+        android:text="@string/lakes"/>
+</LinearLayout>
